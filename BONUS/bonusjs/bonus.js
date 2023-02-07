@@ -21,7 +21,7 @@ let carArray = [
 arrPosition = (Math.ceil(Math.random() * 10))
 console.log(arrPosition)
 
-for (let i = 0 ; i < carArray.length ; i++) {
+for (let i = 0 ; i < 11 ; i++) {
   const splice = carArray.splice(arrPosition, arrPosition)
 
   console.log(carArray)

@@ -3,14 +3,21 @@
 
 //dichiaro variabili necessarie, ovvero chiedi numero, dispari e pari
 
-let = number
+// let askNumber = parseInt(prompt('inserisci 10 numeri dispari'))
+// console.log(askNumber)
 
-const numberOdd = number % 2 >= 1 //il numero e' dispari
+let askNumber
 
-const sogliaOdd = numberOdd
+const numberOdd = askNumber % 2 >= 1 //il numero e' dispari
+console.log(numberOdd)
 
-const numberEven = number % 2 === 0 // il numero e' pari
+let arrayOdds = []
+console.log(arrayOdds.length)
 
-while (numberOdd < sogliaOdd) {
-  number = parseInt(prompt('inserisci 10 numeri dispari'))
+while (arrayOdds.length <= 10 ) {
+  askNumber = parseInt(prompt('inserisci 10 numeri dispari'))
 }
+
+// while (numberOdd < sogliaOdd) {
+//   number = parseInt(prompt('inserisci 10 numeri dispari'))
+// }

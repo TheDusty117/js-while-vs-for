@@ -14,10 +14,15 @@ console.log(numberOdd)
 let arrayOdds = []
 console.log(arrayOdds.length)
 
-while (arrayOdds.length <= 10 ) {
+while (arrayOdds.length < 10 ) {
   askNumber = parseInt(prompt('inserisci 10 numeri dispari'))
+  const addOdd = arrayOdds.push(askNumber)
+  console.log(arrayOdds)
+  
 }
 
-// while (numberOdd < sogliaOdd) {
-//   number = parseInt(prompt('inserisci 10 numeri dispari'))
-// }
+//ciclo for per stampare singolarmente ogni numero
+
+for (let i = 0; i < arrayOdds.length; i++) {
+  console.log(arrayOdds[i])
+}

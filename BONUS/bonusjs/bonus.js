@@ -18,11 +18,14 @@ let carArray = [
 // creare ciclo infinito che cambia ogni volta posizione
 
 // creare ciclo for, che per ogni indice gli riassegni la posizione
-arrPosition = (Math.ceil(Math.random() * 10))
-console.log(arrPosition)
+randomNumber = (Math.ceil(Math.random() * 10))
+console.log(randomNumber)
 
 for (let i = 0 ; i < 11 ; i++) {
-  const splice = carArray.splice(arrPosition, arrPosition)
 
-  console.log(carArray)
+  const fromArray = carArray.indexOf('ferrari');
+
+  const toArray = randomNumber;
+
+  
 }

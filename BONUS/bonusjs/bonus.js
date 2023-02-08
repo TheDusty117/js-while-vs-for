@@ -27,5 +27,8 @@ for (let i = 0 ; i < 11 ; i++) {
 
   const toArray = randomNumber;
 
+  const element = carArray.splice(fromArray, randomNumber)[randomNumber]
+
+  console.log(carArray)
   
 }
